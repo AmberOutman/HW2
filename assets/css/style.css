@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+    background-image: url('../img/gplaypattern.png');
+}
+.container{
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
