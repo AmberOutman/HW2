@@ -1,12 +1,53 @@
 body{
     background-color: aquamarine;
     background-image: url('../img/gplaypattern.png');
+    margin-bottom: 70px;
 }
-.container{
+#main-container, header{
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
 h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
+}
+.navbar.bg-light{
+    background-color: transparent !important;
+}
+.navbar-brand{
+    background-color: #4aaaa5;
+    color: white !important;
+    padding: 16px;
+}
+header{
+    margin-bottom: 15px;
+}
+footer{
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    box-sizing: border-box;
+}
+#myFace{
+    float: left;
+    margin-right: 8px;
+}
+.imagewrap{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.caption{
+    background-color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    z-index: 21;
+    transform: translate(-50%, -50%);
+    padding: 10px 0;
 }
